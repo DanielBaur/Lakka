@@ -111,7 +111,7 @@ Hier könnte ihre Werbung stehen.
   Thereby you can create subfolder structures (e.g. "roms/gameboy_advance").
 
 
-- Then boot into Lakka, navigate to the '+' sign and scan the 'roms' directory. The roms you just added are then compared against internal database entries and should be selectable in the main menu.
+- Then boot into Lakka, navigate to the '+' sign and scan the 'roms' directory. The roms you just added are then compared against internal database entries and should be selectable in the main menu. (This is not necessary for the following steps; you can do that in the end when you boot the system anyhow.)
 
 
 
@@ -125,7 +125,7 @@ Hier könnte ihre Werbung stehen.
 - GENERAL INFORMATION:
   Within Retroarch there are three configuration files relevant for the proper use of any controller:
     - the controller-specific key bindings ():
-      This file contains the information on which key of your controller provides what input signal for Retroarch
+      This file contains the information which key of your controller provides what input signal for Retroarch
       (e.g. whether clicking the green butten labelled "B" on your N64 USB controller actually provides the input "A", "B" or anything else).
       When you attach both your new controller and a keyboard to the Raspberry Pi hosting Lakka you can generate this file by navigating to
       ---> Input ---> Player Binds.
@@ -154,15 +154,13 @@ In order to set up the controls for your Lakka Raspberry Pi system do the follow
 ###############################################
 
 
-- 2020-01-25 (Daniel): 
-  Nintendo DS cores don't run smoothly.
+- 2020-01-25 (Daniel): Nintendo DS cores don't run smoothly.
   Everything works but the games run incredibly slow.
-  This should be fixed in the future.
+  According to the Lakka developers this should be fixed in the future.
   (One should anyhow emulate NDS games with a NDS console and a flashcard (e.g. EDGE).)
 
 
-- 2020-02-06 (Daniel):
-  Some Nintendo 64 games suffer from low frame rates.
+- 2020-02-06 (Daniel): Some Nintendo 64 games suffer from low frame rates.
   E.g.: "Conker's Bad Fur Day" and "Super Smash Brothers" (with four players at lowest resolution) both run at ~20 fps.
   According to the community this is due to the fact that the current version of Lakka is not yet optimized for the Raspberry Pi 4 architechture.
   Future software updates are likely to improve these issues.
